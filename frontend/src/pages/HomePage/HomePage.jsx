@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { getNotes } from '../../utilities/notes-api';
-import CreateNoteForm from "../../components/CreateNoteForm/CreateNoteForm";
-import NoteList from "../../components/NoteList/NoteList";
+import { getNotes } from '../../utilities/notes-api.js';
+import CreateNoteForm from "../../components/CreateNoteForm/CreateNoteForm.jsx";
+import NoteList from "../../components/NoteList/NoteList.jsx";
 
 export default function HomePage() {
   const [notes, setNotes] = useState(null);
